@@ -1,0 +1,4 @@
+.card-body img:hover{
+    transition: transform 1s;
+    transform: scale(1.1);
+}

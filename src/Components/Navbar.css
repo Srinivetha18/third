@@ -1,0 +1,229 @@
+/* Navbar Container */
+.nav0 {
+  background-color:skyblue;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar links container */
+.nav-links0 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px; 
+}
+
+/* Style for each list item */
+.nav-links0 li {
+  padding: 8px 16px; 
+  display: flex;
+  align-items: center;
+}
+
+/* Logo item styling */
+.nav-links0 .logo img {
+  max-width: 120px; 
+  height: auto;
+}
+
+/* Search bar styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+/* Input field inside the search bar */
+.search-input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Button styling inside the search bar */
+.search-btn {
+  background-color: transparent;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Dropdown button and menu */
+.dropdown {
+  position: relative;
+  margin-right: 20px; 
+}
+
+.dropdown .btn {
+  padding: 8px 16px;  
+  color: blue;  
+  background-color: transparent; 
+  border: none; 
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: transparent; 
+  border: none; 
+  padding: 10px 0;
+  display: none;
+  box-shadow: none; 
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 8px 16px;
+  color: black;  
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu .dropdown-item:hover {
+   background-color: #ddd; 
+}
+  
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.hairloss{
+  text-decoration: none;
+  color: blue;
+}
+/* Logo image */
+.logo img {
+  height: 50px;
+  width: 60px;
+  height: auto;
+  border-radius: 400px;
+  margin-right: 20px;
+}
+
+/* Search input styling */
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search input {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: none;
+  height: 50px;
+  width: 300px;
+}
+
+.search button {
+  background-color: grey;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+}
+
+.search button i {
+  font-size: 16px;
+  color: white;
+}
+
+/* Sub-list icon styling */
+.subli0 svg {
+  fill: black;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  float: right;
+  margin-left: 10px;
+  
+}
+
+.subli0 svg:hover {
+  fill: black;
+}
+
+/* Align buttons to the right */
+.log {
+  margin-left: auto;
+}
+
+/* Button styling */
+.btn1 {
+  background-color: #f1c40f;
+  color: #333;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn1 a {
+  color: #333;
+  text-decoration: none; 
+}
+
+.btn1:hover {
+  background-color: #e0b90f;
+}
+
+/* Styling for the Login button */
+ .log {
+  margin-left: auto;
+}
+
+.btn1 {
+  background-color: green;
+  color: #333;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 80px;
+  float: right;
+}
+
+.btn1 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background-color: lightgray;
+}
+
+/* Styling for the Add Cart button */
+.log {
+  margin-left: auto;
+}
+
+.btn2 {
+  background-color:green;
+  color: #333;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100px;
+  float: right;
+}
+
+.btn2 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background-color: lightgray;
+}
